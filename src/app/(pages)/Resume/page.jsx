@@ -20,7 +20,7 @@ const ResumeMaker = () => {
     educationLevel: "",
     institue: "",
     graduation: "",
-    skill: "",
+    skills: "",
     summary: "",
     jobtitle: "",
     cname: "",
@@ -34,6 +34,7 @@ const ResumeMaker = () => {
     github: "",
     linkedin: "",
     role: "",
+    result:'',
   });
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -44,7 +45,7 @@ const ResumeMaker = () => {
     }));
   };
   return (
-    <div className="w-full max-w-7xl mx-auto space-y-2 py-12 relative">
+    <div className="w-full max-w-7xl mx-auto space-y-2 py-12 relative min-h-screen">
       <h1 className="p-4 text-4xl text-center uppercase font-black">Build Your Resume Now.</h1>
       {/* i want this one to be scrollable, means. this one has a lot of information so it will be srollable */}
       <div className="w-full flex justify-evenly items-start gap-4">

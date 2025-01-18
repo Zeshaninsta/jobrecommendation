@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
+    "@react-pdf/renderer": "^4.1.6",
     "@tiptap/extension-code-block": "^2.10.4",
     "@tiptap/extension-heading": "^2.10.4",
     "@tiptap/extension-image": "^2.10.4",
@@ -19,6 +20,8 @@
     "@tiptap/pm": "^2.10.4",
     "@tiptap/react": "^2.10.4",
     "@tiptap/starter-kit": "^2.10.4",
+    "html2pdf.js": "^0.9.0",
+    "jspdf": "^2.5.2",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
